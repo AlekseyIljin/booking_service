@@ -1,0 +1,26 @@
+{% extends 'tickets/index.html' %}
+{% block content %}
+
+<table>
+    <caption>Booking list</caption>
+    <tr>
+        <th>booking ref</th>
+        <th>flight</th>
+        <th>user</th>
+        <th>payment</th>
+        <th>cost</th>
+        <th>currency</th>
+    </tr>
+    {% for pnr in pnrs %}
+        <tr>
+            <td>{{ pnr.pnr}}</td>
+            <td>{{ pnr.flight.id_company.code}}{{pnr.flight.flight_number}}</td>
+            <td>{{ pnr.user.last_name}}/{{pnr.user.name}}</td>
+            <td>{{ pnr.payment }}</td>
+            <td>{{ pnr.cost }}</td>
+            <td>{{ pnr.currency }}</td>
+        </tr>
+    {% endfor %}
+</table>
+
+{% endblock content %}

@@ -1,0 +1,9 @@
+{% extends 'tickets/index.html' %}
+{% block content %}
+<ul>
+    {% for flight in flights %}
+    <li>{{ flight }}</li>
+    {% endfor %}
+</ul>
+
+{% endblock content %}
