@@ -2,7 +2,7 @@
 {% block content %}
 <ul>
     {% for company in companies %}
-    <li>{{ company.code }}</li>
+    <li>{{ company.code }} {{ company.name }}</li>
     {% endfor %}
 </ul>
 

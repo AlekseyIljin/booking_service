@@ -3,13 +3,11 @@ from django.http import HttpResponse
 from django.views import View
 from django.views.generic.edit import CreateView
 from .models import Flight, Company, Reservation
-
-
 # from .forms import ReservationForm
 
 
 def index(request):
-    return HttpResponse("HELLO WORLD!")
+    return render(request, 'tickets/index.html')
 
 
 class FlightViews(View):
