@@ -8,4 +8,6 @@ urlpatterns = [
     path('companies', CompanyViews.as_view(), name="company"),
     path('reservation', ReservationView.as_view(), name="pnr"),
     path('creation', ReservationCreateView.as_view(), name="booking"),
+    path('flight_selection', SelectFlightFromListView.as_view(), name="flights"),
+
 ]

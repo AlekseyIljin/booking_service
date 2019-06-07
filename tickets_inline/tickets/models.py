@@ -45,6 +45,7 @@ class Flight(models.Model):
     flight_number = models.IntegerField(max_length=4)
     departure = models.CharField(null=True, max_length=3, choices=AIRPORTS)
     destination = models.CharField(null=True, max_length=3, choices=AIRPORTS)
+    date_of_flight = models.DateField(blank=True, null=True)
     departure_time = models.TimeField(default="00:00")
     arrival_time = models.TimeField(default="00:00")
     tax = models.IntegerField(max_length=10, null=True)
@@ -66,7 +67,7 @@ class Fare(models.Model):
         return str(self.id_company.code) + " - " + str(self.service_class)
 
 
-class User(models.Model):
+class Customer(models.Model):
     name = models.CharField(max_length=250)
     last_name = models.CharField(max_length=250)
     passport = models.CharField(default='', null=True, max_length=15)
@@ -82,7 +83,7 @@ class User(models.Model):
 class Reservation(models.Model):
     pnr = models.CharField(max_length=6, unique=True)
     flight = models.ForeignKey(Flight, on_delete=models.CASCADE, default=0)
-    user = models.ForeignKey(User, on_delete=models.CASCADE, default=None)
+    user = models.ForeignKey(Customer, on_delete=models.CASCADE, default=None)
     fare = models.ForeignKey(Fare, on_delete=models.CASCADE, default=0)
     payment = models.BooleanField(default=False)
     currency = models.CharField(max_length=3, blank=True)
