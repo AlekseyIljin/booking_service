@@ -1,0 +1,18 @@
+{% extends 'tickets/index.html' %}
+{% block content %}
+<form method="post" action="">
+    {% csrf_token %}
+    {{ form }}
+    <button type="submit">Submit</button>
+</form>
+
+<script>
+    $(function(){
+    $('.datepicker').datepicker(
+    {
+    changeMonth: true,
+    changeYear: true,
+    changeDay: true
+    }))
+</script>
+{% endblock content %}

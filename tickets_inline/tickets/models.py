@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils import timezone
 from phonenumber_field.modelfields import PhoneNumberField
 import re
 
@@ -29,7 +30,6 @@ FARE = {
 class Company(models.Model):
     name = models.CharField(max_length=250)
     site = models.URLField('site_address')
-    loyalty_program = models.BooleanField
     blank = models.IntegerField(max_length=3)
     code = models.CharField(max_length=2)
 
@@ -45,10 +45,9 @@ class Flight(models.Model):
     flight_number = models.IntegerField(max_length=4)
     departure = models.CharField(null=True, max_length=3, choices=AIRPORTS)
     destination = models.CharField(null=True, max_length=3, choices=AIRPORTS)
-    # departure_time = models.DateTimeField()
-    # arrival_time = models.DateTimeField()
+    departure_time = models.TimeField(default="00:00")
+    arrival_time = models.TimeField(default="00:00")
     tax = models.IntegerField(max_length=10, null=True)
-
 
     class Meta:
         verbose_name = "flight"
@@ -67,40 +66,16 @@ class Fare(models.Model):
         return str(self.id_company.code) + " - " + str(self.service_class)
 
 
-class Passport(models.Model):
-    citizenship = models.CharField(max_length=3)
-    p_number = models.CharField(max_length=250, default='')
-    issue = models.CharField(max_length=3)
-    b_day = models.DateField (blank=True, null=True)
-    sex = models.CharField(max_length=6)
-    expity_date = models.DateField(blank=True, null=True)
-
-    def __str__(self):
-        return self.citizenship
-
-
 class User(models.Model):
-
-
-    def passport_details(self):
-        detail_string = str(Passport.citizenship) + '/' + str(Passport.serial) + str(Passport.number) + '/' + str(
-            Passport.issue) + '/'
-        + str(Passport.b_day) + str(Passport.sex) + '/' + str(Passport.expity_date)
-        return detail_string
-
-    def number_regular(chars):
-        phone = re.sub("\d", str(chars))
-        return phone
-
     name = models.CharField(max_length=250)
     last_name = models.CharField(max_length=250)
-    passport = models.OneToOneField(Passport, on_delete=models.CASCADE, null=True)
-    loyalty = models.BooleanField(default=False)
+    passport = models.CharField(default='', null=True, max_length=15)
     phone_number = PhoneNumberField()
     email = models.EmailField(null=True)
 
     def __str__(self):
-        return  self.name + " "+ self.last_name
+        return self.name + " " + self.last_name
+
 
 
 
@@ -110,7 +85,6 @@ class Reservation(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, default=None)
     fare = models.ForeignKey(Fare, on_delete=models.CASCADE, default=0)
     payment = models.BooleanField(default=False)
-    ticket = models.IntegerField(max_length=10, blank=True, null=True)
     currency = models.CharField(max_length=3, blank=True)
 
     def __str__(self):

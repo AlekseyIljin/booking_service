@@ -7,4 +7,5 @@ urlpatterns = [
     path('flights', FlightViews.as_view(), name="flight"),
     path('companies', CompanyViews.as_view(), name="company"),
     path('reservation', ReservationView.as_view(), name="pnr"),
+    path('creation', ReservationCreateView.as_view(), name="booking"),
 ]

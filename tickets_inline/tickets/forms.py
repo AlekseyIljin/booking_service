@@ -1,9 +1,23 @@
-# from django import forms
-# from .models import *
-#
-# class ReservationForm(forms.ModelForm):
-#     b_day = forms.DateField(input_formats=['%dd%b%yy'])
-#
-#     class Meta:
-#         model = Reservation
-#         fields = ('user.name', 'user.last_name', 'user.phone_number', 'user.email')
+import django.forms as forms
+from .models import AIRPORTS
+from .models import Reservation
+
+
+class DateInput(forms.DateInput):
+    input_type = 'date'
+
+
+class ReservationForm(forms.Form):
+    departure = forms.ChoiceField(label="Отправление",
+                                    choices=AIRPORTS,
+                                    initial='',
+                                    widget=forms.Select(),
+                                    required=True)
+    destination = forms.ChoiceField(label="Прибытие",
+                                  choices=AIRPORTS,
+                                  initial='',
+                                  widget=forms.Select(),
+                                  required=True)
+    widgets = forms.DateField(widget=forms.TextInput(attrs={
+        'class':'datapicker'
+    }))
