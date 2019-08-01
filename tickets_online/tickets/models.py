@@ -78,12 +78,10 @@ class Customer(models.Model):
         return self.name + " " + self.last_name
 
 
-
-
 class Reservation(models.Model):
     pnr = models.CharField(max_length=6, unique=True)
     flight = models.ForeignKey(Flight, on_delete=models.CASCADE, default=0)
-    user = models.ForeignKey(Customer, on_delete=models.CASCADE, default=None)
+    customer = models.ForeignKey(Customer, on_delete=models.CASCADE, default=None)
     fare = models.ForeignKey(Fare, on_delete=models.CASCADE, default=0)
     payment = models.BooleanField(default=False)
     currency = models.CharField(max_length=3, blank=True)

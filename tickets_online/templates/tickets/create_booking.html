@@ -2,17 +2,7 @@
 {% block content %}
 <form method="post" action="">
     {% csrf_token %}
-    {{ form }}
+    {{ form.as_p }}
     <button type="submit">Submit</button>
 </form>
-
-<script>
-    $(function(){
-    $('.datepicker').datepicker(
-    {
-    changeMonth: true,
-    changeYear: true,
-    changeDay: true
-    }))
-</script>
 {% endblock content %}

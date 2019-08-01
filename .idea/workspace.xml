@@ -2,13 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7befdf9b-0c31-4f5c-9ba1-a8ad3b33718b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tickets_inline/tickets/controllers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tickets_online/templates/tickets/create_booking.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tickets_online/templates/tickets/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tickets_online/tickets/controllers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tickets_online/tickets/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tickets_online/tickets/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tickets_online/tickets/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tickets_online/tickets_online_app/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tickets_online/tickets_online_app/wsgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_inline/tickets/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_inline/tickets/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_inline/tickets/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_inline/tickets/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_inline/tickets/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/templates/tickets/company.html" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/templates/tickets/company.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/templates/tickets/create_booking.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/templates/tickets/flights.html" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/templates/tickets/flights.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/templates/tickets/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/templates/tickets/reservation.html" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/templates/tickets/reservation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/controllers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/migrations/0002_reservation.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/migrations/0002_reservation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/migrations/0003_auto_20190603_1242.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/migrations/0003_auto_20190603_1242.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/migrations/0004_auto_20190603_1656.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/migrations/0004_auto_20190603_1656.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/migrations/0005_auto_20190604_1409.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/migrations/0005_auto_20190604_1409.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/migrations/0006_auto_20190604_1411.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/migrations/0006_auto_20190604_1411.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/migrations/0007_auto_20190604_1451.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/migrations/0007_auto_20190604_1451.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/migrations/0008_auto_20190604_1452.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/migrations/0008_auto_20190604_1452.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/migrations/0009_auto_20190604_1524.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/migrations/0009_auto_20190604_1524.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/migrations/0010_auto_20190605_1226.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/migrations/0010_auto_20190605_1226.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/migrations/0011_auto_20190605_1245.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/migrations/0011_auto_20190605_1245.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/migrations/0012_auto_20190605_1246.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/migrations/0012_auto_20190605_1246.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/migrations/0013_auto_20190605_1246.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/migrations/0013_auto_20190605_1246.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/migrations/0014_auto_20190605_1247.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/migrations/0014_auto_20190605_1247.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/migrations/0015_auto_20190605_1247.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/migrations/0015_auto_20190605_1247.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/migrations/0016_auto_20190605_1248.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/migrations/0016_auto_20190605_1248.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/migrations/0017_auto_20190605_1249.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/migrations/0017_auto_20190605_1249.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/migrations/0018_auto_20190605_1252.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/migrations/0018_auto_20190605_1252.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/migrations/0019_auto_20190605_1255.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/migrations/0019_auto_20190605_1255.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/migrations/0020_auto_20190605_1255.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/migrations/0020_auto_20190605_1255.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/migrations/0021_auto_20190605_1301.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/migrations/0021_auto_20190605_1301.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/migrations/0022_auto_20190605_1308.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/migrations/0022_auto_20190605_1308.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/migrations/0023_auto_20190605_1314.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/migrations/0023_auto_20190605_1314.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/migrations/0024_auto_20190605_1320.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/migrations/0024_auto_20190605_1320.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/migrations/0025_auto_20190605_1320.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/migrations/0025_auto_20190605_1320.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/migrations/0026_auto_20190605_1322.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/migrations/0026_auto_20190605_1322.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/migrations/0027_auto_20190605_1323.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/migrations/0027_auto_20190605_1323.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/migrations/0028_auto_20190605_1323.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/migrations/0028_auto_20190605_1323.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets_inline/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets_online_app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets_inline/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets_inline/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets_online/tickets_online_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets_inline/tickets_inline/wsgi.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,150 +67,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tickets_inline/templates/tickets/create_booking.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tickets_inline/tickets/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tickets_inline/tickets/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tickets_inline/tickets/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-882">
-              <caret line="45" column="63" lean-forward="true" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="63" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tickets_inline/tickets/controllers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tickets_inline/tickets/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/passport_model">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tickets_inline/templates/tickets/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tickets_inline/templates/tickets/company.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tickets_inline/tickets/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/tickets_inline/test.py" />
-        <option value="$PROJECT_DIR$/tickets_inline/polls/models.py" />
-        <option value="$PROJECT_DIR$/tickets_inline/polls/urls.py" />
-        <option value="$PROJECT_DIR$/tickets_inline/polls/views.py" />
-        <option value="$PROJECT_DIR$/tickets_inline/tickets_inline/urls.py" />
-        <option value="$PROJECT_DIR$/tickets_inline/templates/tickets/flights.html" />
-        <option value="$PROJECT_DIR$/tickets_inline/templates/tickets/reservation.html" />
-        <option value="$PROJECT_DIR$/tickets_inline/tickets/froms.py" />
-        <option value="$PROJECT_DIR$/tickets_inline/tickets_inline/settings.py" />
-        <option value="$PROJECT_DIR$/tickets_inline/templates/tickets/company.html" />
-        <option value="$PROJECT_DIR$/passport_model" />
-        <option value="$PROJECT_DIR$/tickets_inline/templates/tickets/index.html" />
-        <option value="$PROJECT_DIR$/tickets_inline/templates/tickets/create_booking.html" />
-        <option value="$PROJECT_DIR$/tickets_inline/tickets/admin.py" />
-        <option value="$PROJECT_DIR$/tickets_inline/tickets/controllers.py" />
-        <option value="$PROJECT_DIR$/tickets_inline/tickets/models.py" />
-        <option value="$PROJECT_DIR$/tickets_inline/tickets/urls.py" />
-        <option value="$PROJECT_DIR$/tickets_inline/tickets/forms.py" />
-        <option value="$PROJECT_DIR$/tickets_inline/tickets/views.py" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="356" />
@@ -167,61 +84,19 @@
     <option name="width" value="668" />
     <option name="height" value="770" />
   </component>
+  <component name="ProjectId" id="1OmNq383Aa3bAFxEB6kyXxvO4Hc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="tickets_online" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tickets_online" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tickets_online" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tickets_online" type="462c0819:PsiDirectoryNode" />
-              <item name="tickets_inline" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tickets_online" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tickets_online" type="462c0819:PsiDirectoryNode" />
-              <item name="tickets_inline" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tickets_online" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tickets_online" type="462c0819:PsiDirectoryNode" />
-              <item name="tickets_inline" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="tickets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tickets_online" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tickets_online" type="462c0819:PsiDirectoryNode" />
-              <item name="tickets_inline" type="462c0819:PsiDirectoryNode" />
-              <item name="tickets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tickets_online" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tickets_online" type="462c0819:PsiDirectoryNode" />
-              <item name="tickets_inline" type="462c0819:PsiDirectoryNode" />
-              <item name="tickets_inline" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Elementary Tasks/master/Projects" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tickets_online/tickets" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tickets_online/tickets" />
+      <recent name="$PROJECT_DIR$/tickets_online/tickets/templates/tickets" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -298,63 +173,23 @@
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="32" width="1920" height="999" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16226216" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.17529412" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947146" weight="0.5235294" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005285" side_tool="true" weight="0.32941177" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32941177" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2293869" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49947146" visible="true" weight="0.32941177" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005285" side_tool="true" weight="0.32941177" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32941177" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created repository" />
     <MESSAGE value="updated" />
     <option name="LAST_COMMIT_MESSAGE" value="updated" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tickets_inline/tickets/views.py</url>
-          <line>75</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -404,167 +239,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tickets_inline/tickets_inline/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets_inline/polls/models.py" />
-    <entry file="file://$PROJECT_DIR$/tickets_inline/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets_inline/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/db/backends/postgresql/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="177" selection-start-line="177" selection-end-line="177" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets_inline/polls/apps.py" />
-    <entry file="file://$PROJECT_DIR$/tickets_inline/polls/admin.py" />
-    <entry file="file://$PROJECT_DIR$/tickets_inline/polls/tests.py" />
-    <entry file="file://$PROJECT_DIR$/tickets_inline/polls/urls.py" />
-    <entry file="file://$PROJECT_DIR$/tickets_inline/polls/views.py" />
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/django/apps/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2414">
-          <caret line="115" selection-start-line="115" selection-end-line="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets_inline/tickets/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets_inline/tickets_inline/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1992">
-          <caret line="83" column="26" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets_inline/templates/tickets/flights.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets_inline/templates/tickets/reservation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets_inline/tickets_inline/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <element signature="e#638#670#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets_inline/tickets/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/passport_model">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets_inline/templates/tickets/company.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets_inline/templates/tickets/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets_inline/templates/tickets/create_booking.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets_inline/tickets/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets_inline/tickets/controllers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets_inline/tickets/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-882">
-          <caret line="45" column="63" lean-forward="true" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets_inline/tickets/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets_inline/tickets/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets_inline/tickets/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
